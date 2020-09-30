@@ -13,9 +13,9 @@ public class GameLogic {
 
     private static final String START_CITY = "Kharkiv";
     private static final String[] CITIES_VALUES = new String[]{
-            "Ankara", "Budapest", "Canberra", "Dhaka", "Edinburgh", "Freetown", "Gdansk", "Honiara", "Islamabad", "Juba",
-            "Kyiv", "London", "Montevideo", "Niamey", "Oslo", "Podgorica", "Quito", "Roseau", "Santiago", "Thimphu",
-            "Ulaanbaatar", "Vatican", "Warsaw", "Xining", "Yerevan", "Zanzibar"
+            "Ankara", "Budapest", "Canberra", "Dhaka", "Edinburgh", "Freetown", "Gdansk", "Honiara", "Islamabad",
+            "Juba", "Kyiv", "London", "Montevideo", "Niamey", "Oslo", "Podgorica", "Quito", "Roseau", "Santiago",
+            "Thimphu", "Ulaanbaatar", "Vatican", "Warsaw", "Xining", "Yerevan", "Zanzibar"
     };
     private static final Set<String> CITIES = new HashSet<>(Arrays.asList(CITIES_VALUES));
 
